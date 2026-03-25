@@ -73,9 +73,4 @@
         android:layout_height="wrap_content"
         android:text="Back to Home"
         android:layout_marginTop="32dp"/>
-
-<<<<<<< HEAD
 </LinearLayout>
-=======
-</LinearLayout>
->>>>>>> aabe8026d58a0d89d47e23ccfc991509970921cc
