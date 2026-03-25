@@ -66,7 +66,11 @@ public class ProductDetailActivity extends AppCompatActivity {
 
         int userId = session.getUserId();
         Order pendingOrder = db.appDao().getPendingOrder(userId);
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> aabe8026d58a0d89d47e23ccfc991509970921cc
         if (pendingOrder == null) {
             pendingOrder = new Order(userId, new Date().toString(), 0.0, "Pending");
             long orderId = db.appDao().insertOrder(pendingOrder);
@@ -79,4 +83,8 @@ public class ProductDetailActivity extends AppCompatActivity {
         Toast.makeText(this, "Added to cart!", Toast.LENGTH_SHORT).show();
         finish();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> aabe8026d58a0d89d47e23ccfc991509970921cc

@@ -56,9 +56,9 @@ public class CartActivity extends AppCompatActivity {
                 pendingOrder.status = "Paid";
                 pendingOrder.totalAmount = db.appDao().getOrderTotal(pendingOrder.orderId);
                 db.appDao().updateOrder(pendingOrder);
-                
+
                 Toast.makeText(this, "Checkout successful!", Toast.LENGTH_SHORT).show();
-                
+
                 // 2. Chuyển sang màn hình hiển thị Hóa đơn (Invoice)
                 Intent intent = new Intent(CartActivity.this, InvoiceActivity.class);
                 intent.putExtra("orderId", pendingOrder.orderId);

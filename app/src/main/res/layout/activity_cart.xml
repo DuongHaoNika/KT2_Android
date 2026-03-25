@@ -36,4 +36,8 @@
         android:text="Checkout (Pay)"
         android:layout_marginTop="16dp"/>
 
+<<<<<<< HEAD
 </LinearLayout>
+=======
+</LinearLayout>
+>>>>>>> aabe8026d58a0d89d47e23ccfc991509970921cc

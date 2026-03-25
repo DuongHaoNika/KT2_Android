@@ -57,4 +57,8 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> aabe8026d58a0d89d47e23ccfc991509970921cc

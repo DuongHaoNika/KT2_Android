@@ -43,4 +43,8 @@
         android:textColor="#FF0000"
         android:layout_marginTop="8dp"/>
 
+<<<<<<< HEAD
 </LinearLayout>
+=======
+</LinearLayout>
+>>>>>>> aabe8026d58a0d89d47e23ccfc991509970921cc

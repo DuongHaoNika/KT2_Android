@@ -36,4 +36,8 @@ public class SessionManager {
         editor.clear();
         editor.commit();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> aabe8026d58a0d89d47e23ccfc991509970921cc

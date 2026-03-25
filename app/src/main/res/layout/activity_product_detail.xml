@@ -33,4 +33,8 @@
         android:text="Add to Cart"
         android:layout_marginTop="32dp" />
 
+<<<<<<< HEAD
 </LinearLayout>
+=======
+</LinearLayout>
+>>>>>>> aabe8026d58a0d89d47e23ccfc991509970921cc
