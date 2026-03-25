@@ -76,8 +76,4 @@ public class InvoiceActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, displayList);
         lvInvoiceItems.setAdapter(adapter);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> aabe8026d58a0d89d47e23ccfc991509970921cc
